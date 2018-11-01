@@ -1,0 +1,17 @@
+{
+    "include": [
+        "tssrc/**/*.ts",
+        "tslib/**/*.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "declaration": false,
+        "noResolve": false,
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "dist/",
+        "sourceMap": true,
+        "jsx": "react",
+        "allowJs": true
+    }
+}
